@@ -1,0 +1,60 @@
+// Connect clkIn to physical pin 55
+NET "clk_master50" LOC = P55;
+NET "clk_master50" IOSTANDARD = LVCMOS33;
+//NET "btn_reset_n" LOC = P47 | IOSTANDARD = LVCMOS33 | PULLUP;
+
+NET "led1" LOC = "P56";
+// NET "led2" LOC = "P57";  // bank 2
+// NET "led3" LOC = "P58";  // bank 2  
+// NET "led4" LOC = "P59";  // bank 2  
+
+//NET "debug_pin1" LOC = P82 | IOSTANDARD = LVCMOS33;    
+//NET "debug_pin2" LOC = P56 | IOSTANDARD = LVCMOS33;    
+
+NET "debug_pin3" LOC = P97 | IOSTANDARD = LVCMOS33;    // bank 1
+NET "debug_pin4" LOC = P98 | IOSTANDARD = LVCMOS33;    // bank 1  
+NET "debug_pin5" LOC = P99 | IOSTANDARD = LVCMOS33;    // bank 1  
+NET "debug_pin6" LOC = P82 | IOSTANDARD = LVCMOS33;    // bank 1
+
+// Voor XC6SLX9‑2TQG144 zijn de GCLK‑pinnen o.a.:
+// • 	P13, P14, P21, P22
+// • 	P32, P33, P42, P43
+// • 	P50, P51, P61, P62
+// • 	P71, P72, P83, P84
+// Pin 78 is GEEN GCLK.
+
+
+// // INPUTS
+NET "spi_le" LOC = P51 |  IOSTANDARD = LVCMOS33;
+NET "spi_clk" LOC = P48 | IOSTANDARD = LVCMOS33;
+NET "spi_data" LOC = P46 |  IOSTANDARD = LVCMOS33;
+
+NET "i2s_in_data" LOC = P84;
+NET "i2s_in_data" IOSTANDARD = LVCMOS33;
+
+NET "i2s_in_lrclk" LOC = P87;
+NET "i2s_in_lrclk" IOSTANDARD = LVCMOS33;
+
+NET "i2s_in_bclk" LOC = P85;
+NET "i2s_in_bclk" IOSTANDARD = LVCMOS33;
+NET "i2s_in_bclk" CLOCK_DEDICATED_ROUTE = FALSE;
+// NET "i2s_in_bclk" CLOCK_DEDICATED_ROUTE = FALSE;
+// NET "i2s_in_bclk" TNM_NET = "i2s_in_bclk";
+// TIMESPEC TS_i2s_in_bclk = PERIOD "i2s_in_bclk" 81.38 ns HIGH 50%;
+
+
+// // // OUTPUTS
+NET "i2s_out_bclk" LOC = P78;
+NET "i2s_out_bclk" IOSTANDARD = LVCMOS33;
+
+
+NET "i2s_out_data" LOC = P79;
+NET "i2s_out_data" IOSTANDARD = LVCMOS33;
+
+NET "i2s_out_lrclk" LOC = P80;
+NET "i2s_out_lrclk" IOSTANDARD = LVCMOS33;
+
+//PIN "u_clock_doublerA/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+//PIN "u_pll/clkout2_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+//PIN "u_pll/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+

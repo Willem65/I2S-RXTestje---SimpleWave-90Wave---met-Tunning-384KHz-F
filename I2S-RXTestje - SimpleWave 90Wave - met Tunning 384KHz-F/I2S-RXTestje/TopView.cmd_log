@@ -1,0 +1,225 @@
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-C/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+xst -intstyle ise -ifn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/TopView.xst" -ofn "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/TopView.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ConstrainFile.ucf -p xc6slx9-tqg144-2 "TopView.ngc" TopView.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopView_map.ncd TopView.ngd TopView.pcf 
+par -w -intstyle ise -ol high -mt off TopView_map.ncd TopView.ncd TopView.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf ConstrainFile.ucf 
+bitgen -intstyle ise -f TopView.ut TopView.ncd 

@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\locksolution.v" Line 20: Result of <arg fmt="%d" index="1">25</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\locksolution.v" Line 36: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">19</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\Reset.v" Line 22: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">23</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\ipcore_dir\emg_clock12288.v" Line 113: Assignment to <arg fmt="%s" index="1">clkout1_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\ipcore_dir\emg_clock12288.v" Line 114: Assignment to <arg fmt="%s" index="1">clkout2_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\ipcore_dir\emg_clock12288.v" Line 115: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\ipcore_dir\emg_clock12288.v" Line 116: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\ipcore_dir\emg_clock12288.v" Line 117: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\ipcore_dir\clock_doublerA.v" Line 132: Assignment to <arg fmt="%s" index="1">status_int</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v" Line 151: Assignment to <arg fmt="%s" index="1">lockedA</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\Upsampler.v" Line 22: Assignment to <arg fmt="%s" index="1">latched_sample</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v" Line 285: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">phase_adj</arg>&gt;. Formal port size is <arg fmt="%d" index="2">16</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v" Line 331: Assignment to <arg fmt="%s" index="1">strobe_iq</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">btn_reset_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v</arg>&quot; line <arg fmt="%s" index="2">100</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_12288KHz</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v</arg>&quot; line <arg fmt="%s" index="2">144</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">u_clock_doublerA</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v</arg>&quot; line <arg fmt="%s" index="2">325</arg>: Output port &lt;<arg fmt="%s" index="3">strobe_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">filter_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.v</arg>&quot; line <arg fmt="%s" index="2">334</arg>: Output port &lt;<arg fmt="%s" index="3">strobe_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">filter_q</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sample_in&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">rom_mem</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">LUT90</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sample_in&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">fm_prod_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">phase_acc</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;fm_prod_18&gt; &lt;fm_prod_19&gt; &lt;fm_prod_20&gt; &lt;fm_prod_21&gt; &lt;fm_prod_22&gt; &lt;fm_prod_23&gt; &lt;fm_prod_24&gt; &lt;fm_prod_25&gt; &lt;fm_prod_26&gt; &lt;fm_prod_27&gt; &lt;fm_prod_28&gt; &lt;fm_prod_29&gt; &lt;fm_prod_30&gt; &lt;fm_prod_31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">data_sync_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i2s_uitgang</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sample_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_FIR</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">I_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">Q_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">u_LUT90</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_H_val</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_H_val</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">addr_sin</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_rom_mem</arg>&gt; for implementation as read-only block RAM.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_rom_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;0&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;1&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;2&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;3&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;4&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;5&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;6&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;7&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;8&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;9&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;10&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;11&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;12&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;13&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;14&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[5]_X_13_o_wide_mux_16_OUT&lt;15&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">63</arg> logic cells (<arg fmt="%d" index="3">32</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">2</arg> logic cells (<arg fmt="%d" index="6">1</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;0&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;1&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;2&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;3&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;4&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;5&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;6&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;7&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;8&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;9&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;10&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;11&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;12&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;13&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;14&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="1317" delta="old" >HDL ADVISOR - A dynamic shift register was found for signal &lt;<arg fmt="%s" index="1">tap_index[6]_X_18_o_wide_mux_10_OUT&lt;15&gt;</arg>&gt; and currently occupies <arg fmt="%d" index="2">96</arg> logic cells (<arg fmt="%d" index="3">48</arg> slices) for the flip-flop chain and additional logic cells for the multiplexer. Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="4">32</arg> (and derived) primitives and reduce this to <arg fmt="%d" index="5">3</arg> logic cells (<arg fmt="%d" index="6">2</arg> slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">data_sync_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I2STX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">blink_cnt_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">watchdog</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">sample_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_Filter</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">Q_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">Q_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">I_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">LUT90</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">sample_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">sample_out_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">FIR_IQ</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">u_12288KHz/pll_base_inst</arg> in unit <arg fmt="%s" index="2">u_12288KHz/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tx_buf_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">I2STX</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tx_buf_1&gt; &lt;tx_buf_2&gt; &lt;tx_buf_3&gt; &lt;tx_buf_4&gt; &lt;tx_buf_5&gt; &lt;tx_buf_6&gt; &lt;tx_buf_7&gt; &lt;tx_buf_8&gt; &lt;tx_buf_9&gt; &lt;tx_buf_10&gt; &lt;tx_buf_11&gt; &lt;tx_buf_12&gt; &lt;tx_buf_13&gt; &lt;tx_buf_14&gt; &lt;tx_buf_15&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">i2s_ingang/rx_sample_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">u_Upsampler/sample_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">filter_q/strobe_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">filter_i/strobe_out</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">TopView</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">u_lock_fix/debounce_timer_23</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_lock_fix/debounce_timer_22</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_lock_fix/debounce_timer_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_lock_fix/debounce_timer_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_lock_fix/debounce_timer_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_watchdog/watchdog_cnt_21</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_watchdog/watchdog_cnt_20</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u_watchdog/watchdog_cnt_19</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">TopView</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">i2s_uitgang/tx_buf_47</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;i2s_uitgang/tx_buf_46&gt; &lt;i2s_uitgang/tx_buf_45&gt; &lt;i2s_uitgang/tx_buf_44&gt; &lt;i2s_uitgang/tx_buf_43&gt; &lt;i2s_uitgang/tx_buf_42&gt; &lt;i2s_uitgang/tx_buf_41&gt; &lt;i2s_uitgang/tx_buf_40&gt; &lt;i2s_uitgang/tx_buf_39&gt; &lt;i2s_uitgang/tx_buf_38&gt; &lt;i2s_uitgang/tx_buf_37&gt; &lt;i2s_uitgang/tx_buf_36&gt; &lt;i2s_uitgang/tx_buf_35&gt; &lt;i2s_uitgang/tx_buf_34&gt; &lt;i2s_uitgang/tx_buf_33&gt; &lt;i2s_uitgang/tx_buf_32&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/state</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/state&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">filter_q/tap_index_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">TopView</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;filter_i/tap_index_6&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="old" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">TopView</arg>&gt;, final ratio is <arg fmt="%i" index="2">127</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2957" delta="old" >There are clock and non-clock loads on clock signal <arg fmt="%s" index="1">clk_master50_BUFGP</arg>. This is not a recommended design practice, that may cause excessive delay, skew or unroutable situations.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="old" >HDL ADVISOR - A <arg fmt="%d" index="1">49</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">i2s_ingang/shift_48</arg>&gt; and currently occupies <arg fmt="%d" index="3">49</arg> logic cells (<arg fmt="%d" index="4">24</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

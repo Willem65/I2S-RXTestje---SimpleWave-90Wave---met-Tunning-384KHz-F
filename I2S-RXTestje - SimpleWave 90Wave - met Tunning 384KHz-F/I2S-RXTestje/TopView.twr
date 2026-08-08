@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml TopView.twx TopView.ncd -o TopView.twr TopView.pcf -ucf
+ConstrainFile.ucf
+
+Design file:              TopView.ncd
+Physical constraint file: TopView.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_master50
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+i2s_in_data |   -2.109(R)|      FAST  |    6.929(R)|      SLOW  |active_bclk_BUFG  |   0.000|
+i2s_in_lrclk|   -2.120(R)|      FAST  |    7.194(R)|      SLOW  |active_bclk_BUFG  |   0.000|
+spi_clk     |   -0.374(F)|      FAST  |    5.023(F)|      SLOW  |clk_24576         |   0.000|
+spi_data    |   -0.811(F)|      FAST  |    5.170(F)|      SLOW  |clk_24576         |   0.000|
+spi_le      |   -0.531(F)|      FAST  |    4.891(F)|      SLOW  |clk_24576         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock i2s_in_bclk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+i2s_in_data |   -1.597(R)|      FAST  |    4.395(R)|      SLOW  |active_bclk_BUFG  |   0.000|
+i2s_in_lrclk|   -1.608(R)|      FAST  |    4.660(R)|      SLOW  |active_bclk_BUFG  |   0.000|
+spi_clk     |    0.138(F)|      FAST  |    2.489(F)|      SLOW  |clk_24576         |   0.000|
+spi_data    |   -0.299(F)|      FAST  |    2.636(F)|      SLOW  |clk_24576         |   0.000|
+spi_le      |   -0.019(F)|      FAST  |    2.357(F)|      SLOW  |clk_24576         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk_master50 to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+debug_pin3   |        18.212(F)|      SLOW  |         8.068(F)|      FAST  |clk_24576         |   0.000|
+debug_pin4   |        18.190(F)|      SLOW  |         8.036(F)|      FAST  |clk_24576         |   0.000|
+debug_pin5   |        18.190(F)|      SLOW  |         8.036(F)|      FAST  |clk_24576         |   0.000|
+debug_pin6   |        10.059(R)|      SLOW  |         4.583(R)|      FAST  |clk_master50_BUFGP|   0.000|
+i2s_out_bclk |        15.512(R)|      SLOW  |         6.467(R)|      FAST  |clk_24576         |   0.000|
+             |        15.450(F)|      SLOW  |         6.401(F)|      FAST  |clk_24576         |   0.000|
+i2s_out_data |        16.833(F)|      SLOW  |         7.255(F)|      FAST  |clk_24576         |   0.000|
+i2s_out_lrclk|        16.689(F)|      SLOW  |         7.188(F)|      FAST  |clk_24576         |   0.000|
+led1         |        12.756(R)|      SLOW  |         5.733(R)|      FAST  |clk_master50_BUFGP|   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock i2s_in_bclk to Pad
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination  |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+debug_pin3   |        15.678(F)|      SLOW  |         7.556(F)|      FAST  |clk_24576         |   0.000|
+debug_pin4   |        15.656(F)|      SLOW  |         7.524(F)|      FAST  |clk_24576         |   0.000|
+debug_pin5   |        15.656(F)|      SLOW  |         7.524(F)|      FAST  |clk_24576         |   0.000|
+i2s_out_bclk |        12.978(R)|      SLOW  |         5.955(R)|      FAST  |clk_24576         |   0.000|
+             |        12.916(F)|      SLOW  |         5.889(F)|      FAST  |clk_24576         |   0.000|
+i2s_out_data |        14.299(F)|      SLOW  |         6.743(F)|      FAST  |clk_24576         |   0.000|
+i2s_out_lrclk|        14.155(F)|      SLOW  |         6.676(F)|      FAST  |clk_24576         |   0.000|
+-------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_master50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_master50   |   11.850|    6.731|   13.521|   14.089|
+i2s_in_bclk    |   11.850|    6.731|   13.521|   14.089|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock i2s_in_bclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_master50   |   11.850|    6.731|   13.521|   14.089|
+i2s_in_bclk    |   11.850|    6.731|   13.521|   14.089|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Aug 08 16:18:56 2026 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 293 MB
+
+
+

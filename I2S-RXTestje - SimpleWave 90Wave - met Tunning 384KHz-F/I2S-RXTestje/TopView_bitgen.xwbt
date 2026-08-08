@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.ncd
+OUTFILE=C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje\TopView.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F\I2S-RXTestje
+LICENSE=ISE
+USER_INFO=213273130_0_0_749

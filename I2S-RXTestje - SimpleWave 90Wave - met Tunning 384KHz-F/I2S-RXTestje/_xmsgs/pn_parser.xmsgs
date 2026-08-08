@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/Emergency_clocks.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/FIR_Filter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/FIR_IQ.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/I2SRX.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/I2STX.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/LUT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/LUT90.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/Oddr2F.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/PHASEACCUMULATOR.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/Reset.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/TopView.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/Upsampler.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/locksolution.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-F/I2S-RXTestje/watchdog.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

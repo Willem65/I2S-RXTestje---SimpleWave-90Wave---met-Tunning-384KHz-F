@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Aug 08 16:17:16 2026
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led1" LOCATE = SITE "P56" LEVEL 1;
+COMP "debug_pin3" LOCATE = SITE "P97" LEVEL 1;
+COMP "debug_pin4" LOCATE = SITE "P98" LEVEL 1;
+COMP "debug_pin5" LOCATE = SITE "P99" LEVEL 1;
+COMP "debug_pin6" LOCATE = SITE "P82" LEVEL 1;
+COMP "spi_clk" LOCATE = SITE "P48" LEVEL 1;
+COMP "i2s_out_lrclk" LOCATE = SITE "P80" LEVEL 1;
+COMP "i2s_in_lrclk" LOCATE = SITE "P87" LEVEL 1;
+COMP "spi_le" LOCATE = SITE "P51" LEVEL 1;
+COMP "i2s_out_bclk" LOCATE = SITE "P78" LEVEL 1;
+COMP "i2s_out_data" LOCATE = SITE "P79" LEVEL 1;
+COMP "i2s_in_bclk" LOCATE = SITE "P85" LEVEL 1;
+PIN i2s_in_bclk_pin<0> = BEL "i2s_in_bclk" PINNAME PAD;
+PIN "i2s_in_bclk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "i2s_in_data" LOCATE = SITE "P84" LEVEL 1;
+COMP "spi_data" LOCATE = SITE "P46" LEVEL 1;
+COMP "clk_master50" LOCATE = SITE "P55" LEVEL 1;
+SCHEMATIC END;
+

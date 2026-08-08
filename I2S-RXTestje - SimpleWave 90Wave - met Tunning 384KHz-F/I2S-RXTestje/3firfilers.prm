@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz\I2S-RXTestje//3firfilers" -s 4096 -u 0000 "C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz/I2S-RXTestje/topview.bit" -spi 
+
+PROM C:\I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz\I2S-RXTestje\3firfilers.prm map: Mon Mar 30 03:39:55 2026
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          4096K
+PROM start    0000:0000
+PROM end      003f:ffff
+PROM checksum 3b1cd3d2
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Mar 30 01:58:07 2026 C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz/I2S-RXTestje/topview.bit

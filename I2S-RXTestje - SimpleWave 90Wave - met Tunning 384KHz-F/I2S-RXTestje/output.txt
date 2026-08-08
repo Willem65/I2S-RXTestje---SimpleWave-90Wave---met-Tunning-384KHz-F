@@ -1,0 +1,11 @@
+Storage Target: SPI Flash Single FPGA
+128K
+Auto Select Storage Device
+FF
+willem1
+C:/I2S-RXTestje - SimpleWave 90Wave - met Tunning 384KHz-B
+
+MCS
+tje
+
+MCS

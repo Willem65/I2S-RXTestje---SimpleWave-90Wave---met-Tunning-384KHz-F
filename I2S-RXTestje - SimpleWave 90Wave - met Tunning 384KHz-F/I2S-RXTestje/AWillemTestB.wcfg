@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/I2S-RXTestje/I2S-RXTestje/tbTopView_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tbTopView" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tbTopView/i2s_out_bclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_out_bclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_out_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/i2s_out_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_out_data</obj_property>
+      <obj_property name="ObjectShortName">i2s_out_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/i2s_out_lrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_out_lrclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_out_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/debug_pin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_pin</obj_property>
+      <obj_property name="ObjectShortName">debug_pin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/clk_master50" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_master50</obj_property>
+      <obj_property name="ObjectShortName">clk_master50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/i2s_in_bclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_in_bclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_in_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/i2s_in_lrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_in_lrclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_in_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/i2s_in_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_in_data</obj_property>
+      <obj_property name="ObjectShortName">i2s_in_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/lrclk_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lrclk_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lrclk_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/clk_master50" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_master50</obj_property>
+      <obj_property name="ObjectShortName">clk_master50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i2s_in_bclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_in_bclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_in_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i2s_in_lrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_in_lrclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_in_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i2s_in_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_in_data</obj_property>
+      <obj_property name="ObjectShortName">i2s_in_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i2s_out_bclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_out_bclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_out_bclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i2s_out_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_out_data</obj_property>
+      <obj_property name="ObjectShortName">i2s_out_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i2s_out_lrclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i2s_out_lrclk</obj_property>
+      <obj_property name="ObjectShortName">i2s_out_lrclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/debug_pin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug_pin</obj_property>
+      <obj_property name="ObjectShortName">debug_pin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/strobe_w1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_w1</obj_property>
+      <obj_property name="ObjectShortName">strobe_w1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/right_sample" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">right_sample[31:0]</obj_property>
+      <obj_property name="ObjectShortName">right_sample[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/strobe_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_1</obj_property>
+      <obj_property name="ObjectShortName">strobe_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/test_signal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">test_signal</obj_property>
+      <obj_property name="ObjectShortName">test_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/phase_w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">phase_w[11:0]</obj_property>
+      <obj_property name="ObjectShortName">phase_w[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/i_w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_w[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/q_w" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_w[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbTopView/uut/strobe_w2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe_w2</obj_property>
+      <obj_property name="ObjectShortName">strobe_w2</obj_property>
+   </wvobject>
+</wave_config>
