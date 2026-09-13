@@ -97,5 +97,153 @@ Bevat Arduino‑SPI interface voor:
 
 ---
 
+
+
+---
+
+## 🔧 Hardware
+
+- **FPGA:** Xilinx Spartan‑6  
+- **DAC:** PCM5102  
+- **DSP:** Externe I2S‑bron (master)  
+- **Arduino:** SPI interface voor live control  
+- **Clocking:** 12.288 MHz / 24.576 MHz / 49.152 MHz
+
+---
+
+## 🛠 Build & Synthese
+
+Project is bedoeld voor:
+
+- Xilinx ISE 14.7  
+- Spartan‑6 LX9 / LX16  
+- Verilog HDL
+
+Synthese‑instellingen:
+- Optimize for speed  
+- Keep hierarchy  
+- Register balancing enabled  
+
+---
+
+## 🧪 Testsignalen
+
+- `test_signal` kan via Arduino worden geactiveerd  
+- Debug‑pins beschikbaar voor scope‑meting:
+  - `debug_pin3`
+  - `debug_pin4`
+  - `debug_pin5`
+  - `debug_pin6`
+
+---
+
+## 👤 Auteur
+
+**Willem**  
+Embedded DSP, FPGA‑design, I2S‑audio, IQ‑modulatie, en hardware‑debugging.
+
+---
+
+## 📄 Licentie
+
+MIT‑licentie of eigen licentie naar keuze.
+
+
+
 ## 📁 Bestandsstructuur
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                TopView (FPGA)                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ┌──────────────┐
+        │   DSP I2S     │
+        │  (Master)     │
+        └──────┬────────┘
+               │  i2s_in_bclk / lrclk / data
+               ▼
+        ┌──────────────────┐
+        │     Watchdog      │◄───────────────┐
+        │  (BCLK monitor)   │                │
+        └──────┬───────────┘                │
+               │ bclk_is_missing            │
+               ▼                            │
+        ┌──────────────────┐                │
+        │  LockSolution     │                │
+        │  (clean_dsp_weg)  │                │
+        └──────┬───────────┘                │
+               │                            │
+               ▼                            │
+        ┌──────────────────────────────────────────────┐
+        │                Clock MUX                      │
+        │  active_bclk  = DSP or Emergency 12.288 MHz  │
+        │  active_lrclk = DSP or Emergency 192 kHz     │
+        └────────┬─────────────────────────────────────┘
+                 │
+                 ▼
+        ┌──────────────────┐
+        │   PLL / DCM       │
+        │ 24.576 MHz / 49.152 MHz
+        └────────┬─────────┘
+                 │ clk_24576 / clk_49152
+                 ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                              AUDIO PROCESSING                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ┌──────────────────┐
+        │     I2SRX         │
+        │  32-bit samples   │
+        └──────┬───────────┘
+               │ rx_sample, strobe_w1
+               ▼
+        ┌──────────────────┐
+        │    Upsampler      │
+        │ 192 kHz → 384 kHz │
+        └──────┬───────────┘
+               │ up_sample, strobe_384
+               ▼
+        ┌──────────────────┐
+        │    FIR Filter     │
+        │   63-tap LPF      │
+        └──────┬───────────┘
+               │ filtered_sample, strobe_filtered
+               ▼
+        ┌──────────────────┐
+        │ Phase Accumulator │
+        │   phase_w (16-bit)│
+        └──────┬───────────┘
+               │ strobe_w2
+               ▼
+        ┌──────────────────┐
+        │     LUT90         │
+        │   I/Q generator   │
+        └──────┬───────────┘
+               │ I16, Q16, iq_valid
+               ▼
+        ┌──────────────────┐
+        │   FIR_IQ Filters  │
+        │  I_filtered/Q_filtered
+        └──────┬───────────┘
+               │ safe_tx_strobe
+               ▼
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                I2S OUTPUT                                    │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+        ┌──────────────────┐
+        │     I2STX         │
+        │  Stereo I/Q → DAC │
+        │  SPI control      │
+        └──────┬───────────┘
+               │ i2s_out_data / lrclk
+               ▼
+        ┌──────────────────┐
+        │     ODDR2F        │
+        │ 24.576 MHz BCLK   │
+        └──────┬───────────┘
+               ▼
+        PCM5102 DAC
+
 
