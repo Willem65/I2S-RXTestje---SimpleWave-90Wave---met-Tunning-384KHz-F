@@ -1,117 +1,101 @@
-# GNU Radio NICAM Decoder & Encoder – Open SDR ZYNQ 7020 / Adalm Pluto
+# FPGA Audio Processing Chain — I2S → Upsampling → FIR → Phase → IQ → I2S
 
-Dit project bevat een volledige set GNU Radio‑flowgraphs en ondersteunende bestanden voor het decoderen en encoderen van NICAM 728 audio via Software Defined Radio.  
-De implementatie is getest met:
+Dit project implementeert een complete digitale audioketen op een Xilinx Spartan‑6 FPGA.  
+De keten ontvangt een I2S‑audiosignaal van een externe DSP, verwerkt het intern op hogere samplefrequenties, genereert IQ‑signalen via een fase‑accumulator en LUT, en stuurt deze als I2S‑stereo uit naar een PCM5102 DAC.
 
-- Analog Devices Adalm Pluto (Chinees PCB‑versie)
-- ZYNQ 7020 Open SDR platform
-- GNU Radio 3.x
+Het ontwerp bevat een robuuste klok‑failover, noodklokken, automatische omschakeling, en een Arduino‑SPI interface voor live parameter‑aanpassing.
 
-Het project bevat zowel NICAM RX, NICAM TX als een BPSK‑TX‑RX referentie‑implementatie.
+---
 
-## Projecten Overzicht
+## 🚀 Functionaliteitsoverzicht
 
-In deze repository vind je drie hoofdprojecten:
+- **I2S‑ingang (RX)**  
+  - 12.288 MHz BCLK  
+  - 192 kHz LRCLK  
+  - 32‑bit samples  
+  - Automatische failover naar noodklokken bij DSP‑klokverlies
 
-### 1. NICAM_RX_Final_Fixed
-Een complete NICAM 728 decoder‑flowgraph.
-Functies:
-- Demodulatie van NICAM‑signaal
-- FEC‑correctie
-- Audio reconstructie
-- Debug‑visualisaties (spectrum, constellatie, timing)
+- **Upsampler (192 kHz → 384 kHz)**  
+  - Verdubbelt de samplefrequentie  
+  - Levert stabiele strobe‑signalen voor verdere verwerking
 
-### 2. NICAM_TX_Final_Fixed
-Een NICAM 728 encoder‑flowgraph.
-Functies:
-- Audio → NICAM 728 encoding
-- BPSK modulatie
-- PlutoSDR / ZYNQ output
-- Instelbare sample‑rates en symbol‑rates
+- **FIR‑filter**  
+  - 63‑tap low‑pass filter  
+  - Schakelbaar via `bypass`
 
-### 3. Final-BPSK-TX-RX
-Referentie‑implementatie voor BPSK‑transmissie en ontvangst.
-Functies:
-- Basis BPSK‑modulator
-- Basis BPSK‑demodulator
-- Timing recovery
-- Debug‑plots
+- **Phase Accumulator**  
+  - 16‑bit fasewoord  
+  - Test‑signaal injectie  
+  - Perfecte synchronisatie met de audiostroom
 
-Alle projecten zijn aanwezig als uitgepakte map én als zip‑bestand.
+- **IQ‑generator (LUT90)**  
+  - 90‑degree quadrature sinus LUT  
+  - 16‑bit I/Q output  
+  - Uitbreiding naar 32‑bit voor FIR‑IQ filters
 
-## Benodigde Software & Hardware
+- **FIR‑IQ filters**  
+  - Gescheiden filtering voor I en Q  
+  - Perfecte frame‑uitlijning via “wachtkamer‑oplossing”
 
-### Software
-- GNU Radio (3.x)
-- gr-iio (voor PlutoSDR)
-- Python 3.x
-- libiio / iio-oscilloscope (optioneel)
+- **I2S‑uitgang (TX)**  
+  - 24.576 MHz BCLK via ODDR2  
+  - 384 kHz LRCLK  
+  - Stereo I/Q naar PCM5102 DAC  
+  - Arduino‑SPI interface voor live fase‑adjustment
 
-### Hardware
-- Adalm Pluto SDR
-- ZYNQ 7020 SDR‑platform
-- Audio‑bron (bijv. WAV‑file of live input)
+- **Watchdog & Noodklokken**  
+  - Detecteert verlies van DSP‑BCLK  
+  - Schakelt automatisch naar interne 12.288 MHz & 192 kHz noodklokken  
+  - Reset‑manager voor stabiele opstart
 
-## Installatie & Gebruik
+---
 
-### 1. Kies een projectmap
-Ga naar één van de uitgepakte mappen:
-- NICAM_RX_Final_Fixed
-- NICAM_TX_Final_Fixed
-- Final-BPSK-TX-RX
+## 🧩 Module‑overzicht
 
-Of pak het bijbehorende .zip‑bestand uit.
+### 1. `Reset`
+Power‑on reset, noodklokgeneratie en stabilisatie van alle modules.
 
-### 2. Open de GNU Radio flowgraph
-Open het .grc‑bestand in GNU Radio Companion.
+### 2. `watchdog`
+Detecteert of de DSP‑BCLK wegvalt.  
+Stuurt LED‑status en failover‑signaal.
 
-### 3. Configureer de SDR‑instellingen
-Voor PlutoSDR:
-- Frequentie instellen
-- Sample‑rate instellen
-- Gain instellen
-- Buffer‑size instellen
+### 3. `emg_clock12288` & `Emergency_clocks`
+Interne noodklokken:
+- 12.288 MHz
+- 192 kHz
 
-Voor ZYNQ:
-- FPGA‑bitstream laden
-- IIO‑driver configureren
+### 4. Multiplexer
+Schakelt automatisch tussen DSP‑klokken en noodklokken.
 
-### 4. Start de flowgraph
-RX → je ziet spectrum, constellatie en audio‑output.  
-TX → je zendt een NICAM‑signaal uit via Pluto/ZYNQ.
+### 5. `clock_doublerA`
+PLL die 24.576 MHz en 49.152 MHz genereert.
 
-## NICAM 728 – Korte Uitleg
+### 6. `I2SRX`
+Ontvangt I2S‑samples en levert 32‑bit audio + strobe.
 
-NICAM (Near Instantaneous Companded Audio Multiplex) is een digitale audiostandaard gebruikt in o.a. PAL‑televisie.  
-Dit project implementeert:
-- NICAM framing
-- Companding
-- FEC
-- BPSK modulatie
-- Synchronisatie & timing recovery
+### 7. `Upsampler`
+Verdubbelt samplefrequentie naar 384 kHz.
 
-## Debug & Analyse
+### 8. `FIR_Filter`
+63‑tap FIR voor filtering na upsampling.
 
-Alle flowgraphs bevatten extra blokken voor:
-- Spectrum‑analyse
-- Constellatie‑plots
-- Timing recovery
-- Bit‑error‑analyse
-- Logging van symbolen
+### 9. `PHASEACCUMULATOR`
+Genereert fase‑woorden op basis van audio‑amplitude.
 
-## Bestanden in deze repository
+### 10. `LUT90`
+Maakt I/Q‑sinussen op basis van fase.
 
-- NICAM_RX_Final_Fixed/
-- NICAM_TX_Final_Fixed/
-- Final-BPSK-TX-RX/
-- .zip‑archieven van alle projecten
-- README.md (dit bestand)
+### 11. `FIR_IQ`
+Filtert I en Q afzonderlijk.
 
-## Auteur
+### 12. `I2STX`
+Stuurt I/Q als stereo I2S naar PCM5102 DAC.  
+Bevat Arduino‑SPI interface voor:
+- `phase_adj`
+- test‑signaal
+- debug‑pins
 
-Willem65  
-Embedded systems, SDR, NICAM‑experimenten, ZYNQ‑ontwikkeling.
+---
 
-## Licentie
+## 📁 Bestandsstructuur
 
-Dit project is vrij te gebruiken voor educatieve en experimentele doeleinden.
